@@ -1,0 +1,19 @@
+{
+  "name": "coffee-intake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "createCoffeeData.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csvjson": "^4.3.3",
+    "dotenv": "^5.0.1",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.22.2",
+    "save": "^2.3.2"
+  }
+}
