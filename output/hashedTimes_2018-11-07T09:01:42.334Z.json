@@ -1,0 +1,133 @@
+{
+	"totalCups": 6,
+	"firstRecordedCoffeeCup": "2015-10-11 14:43:30.762",
+	"latestRecordedCoffeeCup": "2015-10-28 19:44:50.929",
+	"shortestTimeBetweenTwoCupsInMs": 63714686,
+	"longestTimeBetweenTwoCupsInMs": 1254873433,
+	"maximalNumberOfCupsInOneDay": {
+		"maximalNumberOfCups": 2,
+		"latestMostFrequentDay": "10-27-2015"
+	},
+	"probabilityArr": [
+		{
+			"hour": 0,
+			"cups": 0,
+			"probability": 0
+		},
+		{
+			"hour": 1,
+			"cups": 0,
+			"probability": 0
+		},
+		{
+			"hour": 2,
+			"cups": 0,
+			"probability": 0
+		},
+		{
+			"hour": 3,
+			"cups": 0,
+			"probability": 0
+		},
+		{
+			"hour": 4,
+			"cups": 0,
+			"probability": 0
+		},
+		{
+			"hour": 5,
+			"cups": 0,
+			"probability": 0
+		},
+		{
+			"hour": 6,
+			"cups": 0,
+			"probability": 0
+		},
+		{
+			"hour": 7,
+			"cups": 0,
+			"probability": 0
+		},
+		{
+			"hour": 8,
+			"cups": 1,
+			"probability": 16.666666666666664
+		},
+		{
+			"hour": 9,
+			"cups": 0,
+			"probability": 0
+		},
+		{
+			"hour": 10,
+			"cups": 1,
+			"probability": 16.666666666666664
+		},
+		{
+			"hour": 11,
+			"cups": 0,
+			"probability": 0
+		},
+		{
+			"hour": 12,
+			"cups": 0,
+			"probability": 0
+		},
+		{
+			"hour": 13,
+			"cups": 0,
+			"probability": 0
+		},
+		{
+			"hour": 14,
+			"cups": 1,
+			"probability": 16.666666666666664
+		},
+		{
+			"hour": 15,
+			"cups": 0,
+			"probability": 0
+		},
+		{
+			"hour": 16,
+			"cups": 0,
+			"probability": 0
+		},
+		{
+			"hour": 17,
+			"cups": 0,
+			"probability": 0
+		},
+		{
+			"hour": 18,
+			"cups": 0,
+			"probability": 0
+		},
+		{
+			"hour": 19,
+			"cups": 1,
+			"probability": 16.666666666666664
+		},
+		{
+			"hour": 20,
+			"cups": 0,
+			"probability": 0
+		},
+		{
+			"hour": 21,
+			"cups": 2,
+			"probability": 33.33333333333333
+		},
+		{
+			"hour": 22,
+			"cups": 0,
+			"probability": 0
+		},
+		{
+			"hour": 23,
+			"cups": 0,
+			"probability": 0
+		}
+	]
+}
