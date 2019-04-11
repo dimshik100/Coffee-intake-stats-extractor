@@ -66,11 +66,14 @@ const timeOffsetIndex = rawData[1].indexOf("time_offset");
 function getLocalTime(timeInUTC, offset) {
   // timeInUTC -> 2018-10-16 04:33:03.954
   // offset -> UTC+0300
-  const tempArr = offset.replace('UTC','').split('');
-  tempArr.splice(3, 0, ':');
-  offset = tempArr.join('');
+  const tempArr = offset.replace("UTC", "").split("");
+  tempArr.splice(3, 0, ":");
+  offset = tempArr.join("");
 
-  return moment.utc(timeInUTC).utcOffset(offset).format('YYYY-MM-DD HH:mm:ss');
+  return moment
+    .utc(timeInUTC)
+    .utcOffset(offset)
+    .format("YYYY-MM-DD HH:mm:ss");
 }
 
 for (let i = 2; i < rawData.length; i++) {
@@ -148,7 +151,10 @@ function createHashedData(hours) {
     maximalNumberOfCupsInOneDay: utils.getMaximalNumberOfCupsInOneDay(
       coffeeIntakeData.intakeTimes
     ),
-    probabilityArr: []
+    probabilityArr: [],
+    dayOfWeekDistribution: utils.getDayOfWeekDistribution(
+      coffeeIntakeData.intakeTimes
+    )
   };
 
   for (time of hours) {
