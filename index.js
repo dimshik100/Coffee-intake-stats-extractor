@@ -37,12 +37,7 @@ function saveFile(output, fileName) {
   const fs = require("fs");
   const content = JSON.stringify(output, null, "\t");
 
-  mkdirp(getDirName(fileName), function(err) {
-    if (err) {
-      console.log(err);
-      return cb(err);
-    }
-
+  mkdirp(getDirName(fileName)).then(value => {
     fs.writeFile(fileName, content, "utf8", function(err) {
       if (err) {
         return console.log(err);
@@ -50,7 +45,11 @@ function saveFile(output, fileName) {
 
       console.log(fileName + " was saved!");
     });
-  });
+  }, err => {
+    console.log(err);
+    return cb(err);
+  })
+
 }
 
 const rawData = csvjson.toArray(data, options);

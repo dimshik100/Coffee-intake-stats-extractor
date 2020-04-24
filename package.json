@@ -12,7 +12,7 @@
   "dependencies": {
     "csvjson": "^4.3.3",
     "dotenv": "^5.0.1",
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^1.0.4",
     "moment": "^2.22.2",
     "save": "^2.3.2"
   }
